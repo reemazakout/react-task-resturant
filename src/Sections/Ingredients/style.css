@@ -1,0 +1,50 @@
+.Ingredients {
+    background: center center no-repeat;
+    background-image: url("../../images/black.png");
+    color: #fffffc;
+    padding-top: 103px;
+      background-size: cover;
+  
+  }
+  
+  .Ingredients .boxes {
+    display: flex;
+    padding-bottom: 100px;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  
+  .Ingredients .boxes .Ingredients-content {
+    flex: 1;
+  }
+  .Ingredients .boxes .Ingredients-content h3 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #ffce6d;
+    margin-bottom: 15px;
+  }
+  
+  .Ingredients .boxes .Ingredients-content h4 {
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin-bottom: 56px;
+  }
+  
+  .Ingredients .boxes .Ingredients-content p {
+    margin-bottom: 73px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #fffffc;
+    width: 378px;
+  }
+  
+  .Ingredients .boxes img {
+    flex: 1;
+  }

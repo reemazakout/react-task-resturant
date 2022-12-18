@@ -1,0 +1,22 @@
+.Statistics {
+    background: center center no-repeat;
+    background-image: url("../../images/black.png");
+    color: #fffffc;
+      background-size: cover;
+  
+  }
+  
+  .Statistics .container {
+    width: 83%;
+  }
+  .Statistics .overlay {
+    background: rgba(16, 20, 24, 0.7);
+    height: 192px;
+  }
+  
+  .Statistics .overlay .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }

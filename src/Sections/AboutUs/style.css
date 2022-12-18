@@ -1,0 +1,47 @@
+.Aboutus {
+    background: center center no-repeat;
+    background-image: url("../../images/black.png");
+    color: #fffffc;
+    padding-top: 144px;
+    background-size: cover;
+  }
+  
+  .Aboutus .boxes {
+    display: flex;
+    padding-bottom: 93px;
+    gap: 30px;
+  }
+  
+  .Aboutus .boxes .about-content {
+    flex: 2;
+  }
+  .Aboutus .boxes .about-content h3 {
+  font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #ffce6d;
+    margin-bottom:15px ;
+  }
+  
+  .Aboutus .boxes .about-content h4 {
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin-bottom: 56px;
+  }
+  
+  .Aboutus .boxes .about-content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+  margin-bottom: 66px;
+  width: 568px;
+  }
+  
+  .Aboutus .boxes img {
+    flex: 1;
+  }

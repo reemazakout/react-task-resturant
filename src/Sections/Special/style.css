@@ -1,0 +1,21 @@
+.Special {
+    background: center center no-repeat;
+    background-image: url("../../images/black.png");
+    color: #fffffc;
+      background-size: cover;
+  
+  }
+  
+  .Special .overlay {
+    background: rgba(16, 20, 24, 0.7);
+    padding-top: 26px;
+    padding-bottom:96px ;
+  
+  }
+  
+  .Special .overlay .Cards {
+    padding: 0 42px;
+    display: flex;
+    align-items: center;
+    gap: 102px;
+  }

@@ -1,0 +1,35 @@
+.Review-box {
+    box-sizing: border-box;
+    width: 732px;
+    height: 385px;
+    background: rgba(16, 20, 24, 0.7);
+    margin: auto;
+    padding: 38px 58px 63px 68px;
+  }
+  
+  .Review-box .pic-name {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    margin-bottom: 38px;
+  }
+  
+  .Review-box .pic-name .name h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+  }
+  
+  .Review-box .pic-name .name img {
+    margin-right: 2px;
+  }
+  
+  .Review-box .review {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+  }

@@ -1,0 +1,36 @@
+.Menuitem {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  
+  .Menuitem .name-description {
+    margin-right: 12px;
+  }
+  
+  .Menuitem .name-description h5 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  }
+  
+  .Menuitem .name-description p {
+    
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  }
+  
+  .Menuitem .line {
+    width: 123px;
+    height: 1px;
+    background-color: #ffce6d;
+  }
+  
+  .Menuitem .price {
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffce6d;
+  }

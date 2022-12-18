@@ -1,0 +1,69 @@
+nav {
+    background-color: #101418;
+    height: 76px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 284px;
+    width: 988px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 58px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffcc;
+    cursor: pointer;
+  }
+  
+  nav ul li {
+    border-bottom: 2px solid transparent;
+  }
+  nav ul li.active {
+    border-bottom: 2px solid #a08040;
+  }
+  
+  nav .BookBtn {
+    width: 272px;
+    background: #a08040;
+    border: 7px solid #a08040;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: 7px solid #a08040;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    flex-grow: 1;
+  }
+  
+  nav .BookBtn::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+  nav .BookBtn::before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+  }

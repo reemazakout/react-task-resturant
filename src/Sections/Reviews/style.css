@@ -1,0 +1,32 @@
+.Reviews {
+    background: center center no-repeat;
+    background-image: url("../../images/black.png");
+    color: #fffffc;
+    padding-top: 100px;
+    padding-bottom:  12px;
+    overflow: hidden;
+      background-size: cover;
+  
+  }
+  
+  .Reviews p {
+    margin-bottom: 60px;
+  }
+  
+  .Reviews .all-reviews  {
+  display: flex;
+  gap: 80px;
+  position: relative;
+  }
+  
+  .Reviews .Review-box:nth-child(1) {
+    position: absolute;
+    left: -35%;
+  
+  }
+  
+  .Reviews .Review-box:nth-child(3) {
+    position: absolute;
+    right: -35%;
+  
+  }

@@ -1,0 +1,33 @@
+.Welcome {
+    background: center center no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(#10141800, #101418),      url("../../images/Welcome-bg.png");
+    height: 895px;
+    color: white;
+    padding-top: 140px;
+    border-radius: ;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+  
+  .Welcome .content {
+    text-align: center;
+  }
+  
+  .Welcome .content h1 {
+  width: 400px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin: auto;
+  color: #FFFCCC;
+  margin-bottom: 15px;
+  }
+  
+  .Welcome .content p {
+    font-weight: 800;
+  font-size: 15px;
+  margin-bottom: 47px;
+  }

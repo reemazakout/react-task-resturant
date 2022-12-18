@@ -1,0 +1,15 @@
+button.Component {
+    width: 215px;
+    height: 55px;
+    border: 2px solid #fffccc;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button.Component.w-h {
+    width: 177px;
+    height: 44px;
+  }

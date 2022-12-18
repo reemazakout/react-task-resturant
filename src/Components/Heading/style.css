@@ -1,0 +1,22 @@
+.Heading h3 {
+    font-family: "Dancing Script";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffce6d;
+    margin: 0;
+    margin-bottom: 17px;
+  }
+  
+  .Heading p {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #fffffc;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 70px;
+  }

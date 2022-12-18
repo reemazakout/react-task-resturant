@@ -1,0 +1,16 @@
+.Blogs {
+    background: center center no-repeat;
+    background-image: url("../../images/black.png");
+    color: #fffffc;
+    padding: 100px 47px 72px;
+      background-size: cover;
+  
+  }
+  
+  .Blogs .all-blogs {
+    padding: 0 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+  }

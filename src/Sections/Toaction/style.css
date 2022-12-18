@@ -1,0 +1,39 @@
+.Toaction {
+    background: center center no-repeat;
+    background-image: url("../../images/black.png");
+    color: #fffffc;
+      background-size: cover;
+  
+  }
+  
+  .Toaction .overlay {
+    background: rgba(23, 32, 40, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 328px;
+  }
+  
+  .Toaction .overlay .Toaction-content {
+    flex: 2;
+      text-align: center;
+  
+  }
+  
+  .Toaction .overlay .Toaction-content h3 {
+    font-family: "Dancing Script";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 28px;
+  }
+  
+  .Toaction .overlay .Toaction-content h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    margin-bottom: 22px;
+    color: #ffce6d;
+  }
+  

@@ -1,0 +1,72 @@
+footer {
+    box-sizing: border-box;
+    background: center center no-repeat;
+    background-image: url("../../images/black.png");
+    color: #fffffc;
+      background-size: cover;
+  
+  }
+  footer .container {
+    box-sizing: border-box;
+    width: 71%;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  footer .container .subscripe {
+    display: flex;
+    gap: 20px;
+  }
+  
+  footer .container .subscripe p {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+  }
+  
+  footer .container form input {
+    box-sizing: border-box;
+    width: 334px;
+    height: 55px;
+    background: transparent;
+    border: 1px solid #ffffcc;
+    padding-left: 34px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    outline: none;
+    color: #ffffcc;
+  }
+  
+  footer .container form button {
+    margin-left: 28px;
+    width: 170px;
+  }
+  
+  footer .lower {
+    background: rgba(16, 20, 24, 0.7);
+    height: 74px;
+    box-sizing: border-box;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  footer .lower h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  }
+  
+  footer .lower p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  }
